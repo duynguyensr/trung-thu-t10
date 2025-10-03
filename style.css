@@ -1,0 +1,34 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 4px 8px;
+}
+
+audio {
+  width: 500px;
+}
+
+.effect {
+  vertical-align: top;
+}
+
+.mobile-view {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .desktop-view {
+    display: none;
+  }
+
+  .mobile-view {
+    display: block;
+  }
+
+  audio {
+    width: 100%;
+  }
+}
