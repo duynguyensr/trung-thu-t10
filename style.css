@@ -8,11 +8,15 @@ td {
 }
 
 audio {
-  width: 500px;
+  width: 600px;
 }
 
 .effect {
   vertical-align: top;
+}
+
+.effect audio {
+  width: 400px;
 }
 
 .mobile-view {
